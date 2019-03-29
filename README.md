@@ -94,3 +94,73 @@ AUTH JWT
 
 RETURN List of all articles
 ```
+
+## Liste des urls
+
+```$xslt
+GET ALL ARTICLES
+GET api/articles
+
+GET SPECIFIC ARTICLE
+GET api/article/{id}
+
+ADD ARTICLE
+POST api/articles
+
+ADD ARTICLE WITH SPECIFIC CATEGORY
+POST api/articles/{categoryId}
+
+DELETE ARTICLE
+DELETE api/article/{id}
+
+UPDATE ARTICLE
+PUT api/article/{id}
+
+GET ALL AUTHORS
+GET api/authors
+
+GET SPECIFIC AUTHOR
+GET api/author/{id}
+
+ADD AUTHOR
+POST api/authors
+
+DELETE AUTHOR
+DELETE api/author/{id}
+
+UPDATE AUTHOR
+PUT /api/author/{id}
+
+GET ALL CATEGORIES
+GET api/categories
+
+GET SPECIFIC CATEGORY
+GET api/category/{id}
+
+ADD CATEGORY
+POST api/category
+
+DELETE CATEGORY
+DELETE api/category/{id}
+
+UPDATE CATEGORY
+PUT /api/category/{id}
+
+GET ALL COMMENT
+GET api/comments
+
+GET SPECIFIC COMMENT
+GET api/comment/{id}
+
+ADD COMMENT
+POST api/comment
+
+DELETE COMMENT
+DELETE api/comment/{id}
+
+UPDATE COMMENT
+PUT /api/comment/{id}
+
+LOG IN
+GET /api/login_check
+```
